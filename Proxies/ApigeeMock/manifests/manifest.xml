@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies/>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:09626a52d197381d2ed3a01659e50b6c8eeb6bfe9645559f9475073b56935bfaef65c82b3f36b25fb352d0f7f1d248aa2cdd1cfd40d38a42829e42dd8875c20f"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:c32a9a68616c76bd0efa26e83b89ae86fc5e87260b18987f35995749d59fca8036a9d5a39eed5d18e161c57eded4d625ee92180d16f558a29e00ffcd10099f50"/>
+    </TargetEndpoints>
+</Manifest>

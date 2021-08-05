@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="1" name="Shared-Flow-1">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1624432103576</CreatedAt>
+    <CreatedBy>singhrishabh131996@gmail.com</CreatedBy>
+    <Description>undefined</Description>
+    <DisplayName>Shared-Flow-1</DisplayName>
+    <LastModifiedAt>1624432756199</LastModifiedAt>
+    <LastModifiedBy>singhrishabh131996@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8374d1eccabc94479345adde6d25eff747637c796c8874b4d2a77bb7cf75a9c9f2f6a90ed0496da0a739394daf667963a3778f9d1df04c771f341f22b1451d9d:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>AM-RemoveParam</Policy>
+        <Policy>EV-QueryParams</Policy>
+        <Policy>RF-StateName</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

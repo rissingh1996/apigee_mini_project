@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Flow-Callout-1" version="SHA-512:6ced367c50b4d63eb2a98bf1f5931ec2cdd9d53b8a68091565315945cd3e1135c633e6693c4437c2ddd28feb5d95ae2b9a85b76147b1cdffda78b77044676730"/>
+        <VersionInfo resourceName="Flow-Callout-2" version="SHA-512:2c826447e099a0a09bf4d8505f2853e440f1d76be3ef4a94fd1029fa094c0c00b5f618fb559f276e7a3e895a8e319aee2d2d2df7321f6648a6c4fde0d9f4d239"/>
+        <VersionInfo resourceName="JS-CovidCasesResponse" version="SHA-512:2a1e7a40ecf932368f16017cf8c53399857ba03f881c3c45f97419402d98e3b0d76e14864d22bf75e0701c9757b3364dff7a7fdf26ebcbfccdb0877e2a59ade6"/>
+        <VersionInfo resourceName="JS-Hospital" version="SHA-512:ff3bb99430e1362c8109bb89cf89f4ed752cde039f7eb47ad5175995b552b999a318e4e5c8158edfe00c3d33d92d78ec1c1bf57b3f661bbbd0c5b9946e334c1e"/>
+        <VersionInfo resourceName="JX-acceptTypeHeader" version="SHA-512:7883012e8ff276553532b77466c17261d498106c3199ef3a837a7c232c1ac70fb01a3667b554ca5177da5c3cb250ffb9d0247d135052fb4713d97fff9f024177"/>
+        <VersionInfo resourceName="RF-NotFound" version="SHA-512:6d4e02a689df0300cea3381041671e63117125cf7f0362791776b4fde629feec6ff97276b542d5ecfdef94a5c0c3bcf78d1afced7cd20dc87ecc8c173d090010"/>
+        <VersionInfo resourceName="RF-NotFoundXML" version="SHA-512:ae971a2f14ca06b27fe88687525e9aeae61edf84b8fd5579612659c26c46ae2107653200a6c0b850a1b8ad8b94b75fa668b26f0adad5668cd5a18e80af245265"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:558e31bd0ffbfbc76d5580eda5e6b5a860d92944e13af60a10de1ad9119dab3add47fbba639eebb2589b99b73da4d0610b3306099338cab75815008f9b05ca85"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://CovidCasesResponse.js" version="SHA-512:5b7b94a66c5e3358148af31e43adda7359e8e83c35086b5fce0cdebc6b6f579bb11cd3481cabe89ea4eb66719980f39b13bd525e9ed2bf4fe7a0d30c4e79d0b8"/>
+        <VersionInfo resourceName="jsc://HospitalBedsResponse.js" version="SHA-512:a056eee38e8300dd5ed9b74a297d61a2e74d21e2731a8f5e87e5747bb4beac2f5ebe2b49072d74d25fe90e1b07e3435122234d5e28e399c49091ea9c87e63ef5"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:d0a557160ec24d6b4c5f26c8df3b079f3f11a1df90327f1ce066a19564dcdb07397557559301dae49615da3683f9f44e56a235e099abb3bcb5ae2380b2211887"/>
+    </TargetEndpoints>
+</Manifest>

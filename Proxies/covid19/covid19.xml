@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="10" name="covid19">
+    <Basepaths>/covid19</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1624432395463</CreatedAt>
+    <CreatedBy>singhrishabh131996@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>covid19</DisplayName>
+    <LastModifiedAt>1624432395463</LastModifiedAt>
+    <LastModifiedBy>singhrishabh131996@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:6445e0cb582d85bea219f22d0a6de97fa9358c82cf59cde73a325426fc312f0f6fd1fb4375196af655670023e9a2fcb568c30e9476d207b4aa5242ae8432a561:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>Flow-Callout-1</Policy>
+        <Policy>Flow-Callout-2</Policy>
+        <Policy>JS-CovidCasesResponse</Policy>
+        <Policy>JS-Hospital</Policy>
+        <Policy>JX-acceptTypeHeader</Policy>
+        <Policy>RF-NotFound</Policy>
+        <Policy>RF-NotFoundXML</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://CovidCasesResponse.js</Resource>
+        <Resource>jsc://HospitalBedsResponse.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

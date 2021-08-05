@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="ApigeeMock">
+    <Basepaths>/apigeemock</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1624530467422</CreatedAt>
+    <CreatedBy>singhrishabh131996@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>ApigeeMock</DisplayName>
+    <LastModifiedAt>1624530862048</LastModifiedAt>
+    <LastModifiedBy>singhrishabh131996@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:563f28f7205c508fc5de1850be7ad7f571b4a9d8aad550d70178efe1bb0cd4afbda4622bdcb5e6b46adfcc5bf424b0a1283474008c93cb19b65f3f4f2e5b2247:ap-northeast-1</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

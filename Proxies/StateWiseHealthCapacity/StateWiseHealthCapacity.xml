@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="StateWiseHealthCapacity">
+    <Basepaths>/statewisehealthcapacity</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1624453859532</CreatedAt>
+    <CreatedBy>singhrishabh131996@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>StateWiseHealthCapacity</DisplayName>
+    <LastModifiedAt>1624453859532</LastModifiedAt>
+    <LastModifiedBy>singhrishabh131996@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:1b0eae8659e91981ebaa5c7cc772ac31341cfea2b17a5f30759ce3388129131476d23076435adb9a111683fa4bb6cd4ad8d4a2d8bfe5b4577abb58bd8714a9df:ap-southeast-2</ManifestVersion>
+    <Policies>
+        <Policy>Flow-Callout-1</Policy>
+        <Policy>JS-PayloadConversion</Policy>
+        <Policy>JSON-to-XML-1</Policy>
+        <Policy>RF-NotFound</Policy>
+        <Policy>RF-NotFoundXML</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://PayloadConversion.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

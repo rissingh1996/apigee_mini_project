@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <Flows>
+        <Flow name="Hospital beds">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>Flow-Callout-1</Name>
+                </Step>
+            </Request>
+            <Response>
+                <Step>
+                    <Name>JS-Hospital</Name>
+                </Step>
+            </Response>
+            <Condition>(proxy.pathsuffix MatchesPath "/hospitals/beds") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="Covid cases">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>Flow-Callout-2</Name>
+                </Step>
+            </Request>
+            <Response>
+                <Step>
+                    <Name>JS-CovidCasesResponse</Name>
+                </Step>
+            </Response>
+            <Condition>(proxy.pathsuffix MatchesPath "/stats/latest") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="Not Found">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>RF-NotFoundXML</Name>
+                    <Condition>(request.header.Accept = "application/xml")</Condition>
+                </Step>
+                <Step>
+                    <Name>RF-NotFound</Name>
+                </Step>
+            </Request>
+            <Response/>
+        </Flow>
+    </Flows>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response>
+            <Step>
+                <Condition>(request.header.Accept = "application/xml")</Condition>
+                <Name>JX-acceptTypeHeader</Name>
+            </Step>
+        </Response>
+    </PostFlow>
+    <HTTPProxyConnection>
+        <BasePath>/covid19</BasePath>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>

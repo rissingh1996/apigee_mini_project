@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Condition>request.queryparam.state = null</Condition>
+        <Name>RF-StateName</Name>
+    </Step>
+    <Step>
+        <Name>EV-QueryParams</Name>
+    </Step>
+    <Step>
+        <Name>AM-RemoveParam</Name>
+    </Step>
+</SharedFlow>

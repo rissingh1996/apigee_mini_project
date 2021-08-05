@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="EV-QueryParams">
+    <DisplayName>EV-QueryParams</DisplayName>
+    <QueryParam name="state">
+        <Pattern>{stateQueryParam}</Pattern>
+    </QueryParam>
+    <QueryParam name="bedType">
+        <Pattern>{bedType}</Pattern>
+    </QueryParam>
+    <QueryParam name="caseType">
+        <Pattern>{caseType}</Pattern>
+    </QueryParam>
+    <QueryParam name="type">
+        <Pattern>{type}</Pattern>
+    </QueryParam>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Source>request</Source>
+</ExtractVariables>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="oauth">
+    <Basepaths>/oauth/client_credential</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1624119640108</CreatedAt>
+    <CreatedBy>accounts_apigee_admin@google.com</CreatedBy>
+    <Description>An API proxy that enforces OAuth 2.0 Client Credential Grant flow</Description>
+    <DisplayName>oauth</DisplayName>
+    <LastModifiedAt>1624119640108</LastModifiedAt>
+    <LastModifiedBy>accounts_apigee_admin@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:a1b816e2db922feae5f3843a1a8b843ac33e5d595a9b6265558fd3a03b0a8337505ac49f2dd646a7a7e8b1860f3744cfbb0ac95eb9d6064fc74d8edb3d566ade</ManifestVersion>
+    <Policies>
+        <Policy>GenerateAccessTokenClient</Policy>
+        <Policy>RefreshAccessToken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

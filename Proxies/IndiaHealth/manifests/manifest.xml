@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="JS-FinalMerge" version="SHA-512:0c18803bc89fb7f5b5d7e4ce73ffbbc0da946580edb44bf494f2246511ab4624f9d05d700d5c4eeecbd41e1d3bf9fe0966731930ae9f49e76d3169184a5457f6"/>
+        <VersionInfo resourceName="Service-Callout-1" version="SHA-512:de5481cffb69aa7bc5ac4652774f32495e853b07df42fc006e59cb67041b8dd4af22db8a55d9b22ae869ba44ba2e341cf0d26013c587da6a48c08722cb65ec40"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:d19fbed29efc8ee32120ec413260d5ce0627f00242eedf8919e84447b7b65884be3e66d868f97301941563a9e077ba4c01ff8c9fddb41e76de994386c2863e78"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://FinalMerge.js" version="SHA-512:d59d305bf679e0f121c687c35ffdbceda796f87e9b7ab86691ff1f1027fb885ec4d74428ae32f7284dfe2a66767a4ebf663fca6b528ba691e9258a36d3b98fd8"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

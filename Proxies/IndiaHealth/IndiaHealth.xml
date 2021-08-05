@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="IndiaHealth">
+    <Basepaths>/indiahealth</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1624437767131</CreatedAt>
+    <CreatedBy>singhrishabh131996@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>IndiaHealth</DisplayName>
+    <LastModifiedAt>1624519948031</LastModifiedAt>
+    <LastModifiedBy>singhrishabh131996@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:ab487d1caa6171759691a8a0ae1c6c3054821c8effddd50154ee7f0b1776441a19826b44bdb64a9d234566b9b0ace848fdf9df8e0f273cb65fc0c1f1c0d103bb:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>JS-FinalMerge</Policy>
+        <Policy>Service-Callout-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://FinalMerge.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

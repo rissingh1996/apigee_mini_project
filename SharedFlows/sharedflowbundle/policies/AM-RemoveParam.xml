@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="AM-RemoveParam">
+    <DisplayName>AM-RemoveParam</DisplayName>
+    <Remove>
+        <QueryParams>
+            <QueryParam name="state"/>
+            <QueryParam name="bedType"/>
+            <QueryParam name="caseType"/>
+            <QueryParam name="type"/>
+        </QueryParams>
+    </Remove>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

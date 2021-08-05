@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Flow-Callout-1" version="SHA-512:e038a336b3b1ac69afebace2101594e0572149f2f1fd1c3dc32e2c126922a1f0c82d3061e572ec6261a0b7b41d3bd4d0a15b919fa2fe9d2e1ea6d16eb1a38bf4"/>
+        <VersionInfo resourceName="JS-PayloadConversion" version="SHA-512:ebff3b9a6cb42f88b993382a9c82514ee539ed797155e8332e243303aa894e80b57cff39eeaa3124b1fa050d62910eb808a805be28c5fc713f46bd390af2c685"/>
+        <VersionInfo resourceName="JSON-to-XML-1" version="SHA-512:292aa2bc5ed5e33ba5e8ff95be403bee90b97a0b86a1a6b5ff9c9c353ad1a5f8784a12a106a7d5309a0d5ddbd0646442bce137bcf461ef911ca75c51b78bf259"/>
+        <VersionInfo resourceName="RF-NotFound" version="SHA-512:6d4e02a689df0300cea3381041671e63117125cf7f0362791776b4fde629feec6ff97276b542d5ecfdef94a5c0c3bcf78d1afced7cd20dc87ecc8c173d090010"/>
+        <VersionInfo resourceName="RF-NotFoundXML" version="SHA-512:ae971a2f14ca06b27fe88687525e9aeae61edf84b8fd5579612659c26c46ae2107653200a6c0b850a1b8ad8b94b75fa668b26f0adad5668cd5a18e80af245265"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:e44d8c9ca1af29966f1175dd50a6708ac372935f985aac70af978c5b5d324847f41d331054590f5b03fd939047f3830b55d484286394248a4fb498e93d90eccc"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://PayloadConversion.js" version="SHA-512:22afa4ebf465f292a3c893396e647d6e70875d11dc5b641dab1e041cb0e40aae85dda0686d369c030e2e95abdb066970efbf0ee2002fb45284eeb9c6a156b399"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:37f296dfd5bba1c37d1d606e33228ee8ec8ebc42ef2c86a268068de17bf8ca3a2df2bed579d7566fb052f117400959e2444fd7ad78fd54957b360041c302a869"/>
+    </TargetEndpoints>
+</Manifest>

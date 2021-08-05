@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-RemoveParam" version="SHA-512:e7b25b1132220878b5f1579efa6946d2f741ef688c9f9f95133b648b395f4424f3ca101876c6d68ead89e8faa528cae839f6d22da6b298e083fb09d3df599d5b"/>
+        <VersionInfo resourceName="EV-QueryParams" version="SHA-512:ecc2bc5406e1b01c5ce209ff11628d10f7f8c8d16fa778a0da44f738a7fb5eac09df19fab8413838aa02324e910ad06327096ec1817757bbb20108f44249c256"/>
+        <VersionInfo resourceName="RF-StateName" version="SHA-512:a752bf6e9e2f7678b9544b7177f882d7b48f022918232899ad38ec860a6f2d0e094d5ab39bc831cf6a723feb03747f65f8e4667772da93352bf8b378921230ec"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources/>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:d7a808e31fef60bf0e193627e7747006d8bd4b5e0a36b0b20188379e07582fd0798d0b2e1256812110246639ee42627e59cbfdb807999ddd92ad4f0c12c5a4da"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>
